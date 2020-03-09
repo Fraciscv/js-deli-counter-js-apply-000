@@ -8,7 +8,7 @@ function takeANumber(lineArray, nameString){
     lineArray.push(nameString);
     for (let i = lineArray.length; i > 0; i++) {
       return `Welcome, ${nameString}. You are number ${i} in line.`;
-      console.log(lineArray)
+      console.log(nameString)
     }
 }
 
