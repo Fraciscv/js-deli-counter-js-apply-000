@@ -1,14 +1,13 @@
 //Add elements to an array
 //Return items from an array
 //Iterate through an array
-//Pass an array as a function parameter
+//Pass an array as a function parameter(argument)
 
 
 function takeANumber(lineArray, nameString){
     lineArray.push(nameString);
     for (let i = lineArray.length; i > 0; i++) {
       return `Welcome, ${nameString}. You are number ${i} in line.`;
-      console.log(nameString)
     }
 }
 
@@ -37,7 +36,6 @@ function nowServing(line) {
 //      for(let i = 0; i < line.length; i++) {
 //        currentLine.push(` ${i + 1}. ${line[i]}`)
 //      }
-
 //  return `The line is currently:${currentLine}`
 //  }
 //}
