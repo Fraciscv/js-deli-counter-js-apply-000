@@ -1,9 +1,17 @@
+//Add elements to an array
+//Return items from an array
+//Iterate through an array
+//Pass an array as a function parameter
+
+
 function takeANumber(lineArray, nameString){
     lineArray.push(nameString);
     for (let i = lineArray.length; i > 0; i++) {
       return `Welcome, ${nameString}. You are number ${i} in line.`;
+      console.log(lineArray.length)
     }
 }
+
 
 //function nowServing(line){
 //    if (line.length === 0) {
